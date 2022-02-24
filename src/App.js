@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
 import './App.css';
+import React, { useState, useEffect } from 'react';
 import About from './components/About';
-import Nav from './components/Nav';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Nav from './components/Nav';
 import Portfolio from './components/Portfolio';
+import Resume from './components/Resume';
 
 
 function App() {
@@ -13,26 +14,28 @@ function App() {
     switch(currentPage) {
       case 'About': 
         return <About/>;
-      case 'Resume': 
-        return <Resume/>;
       case 'Portfolio':
         return <Portfolio/>;
       case 'Contact':
         return <Contact/>;
+      case 'Resume': 
+        return <Resume/>;
       default: 
         return <About/>;
     }
-  }
+  };
+
+  const handlePageChange = (page) => setCurrentPage(page);
 
   return (
     <>
     <Nav currentPage={currentPage} handlePageChange={handlePageChange}></Nav>
-    <main id="main">
-      {renderPage()}
-    </main>
+      <main id="main">
+        {renderPage()}
+      </main>
     <Footer></Footer>
-  </>
-);
+    </>
+  );
 }
 
 export default App;

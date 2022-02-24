@@ -6,7 +6,17 @@ function ContactForm() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
     const [errorMessage, setErrorMessage] = useState('');
     const { name, email, message } = formState;
-    // JSX
+
+    const submit = (e) => {
+        e.preventDefault();
+        if(validateEmail(e.target.email.value) && e.target.name.value && e.target.message.value) {
+			console.log(e.target.name.value, e.target.email.value, e.target.message.value);
+            setFormState({ name: '', email: '', message:''});
+            console.log('Form', formState);
+			document.querySelector(".contact-form").reset();
+        }
+    };
+
     function handleChange(e) {
         if (e.target.name === 'email') {
             const isValid = validateEmail(e.target.value);

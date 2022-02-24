@@ -3,15 +3,15 @@ import React from "react";
 const Nav = ({currentPage, handlePageChange}) => {
 
   return (
-<header className='sticky-top'>
+<header className='sticky-top flex-row'>
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
         <h1 className="text-light"><a href="index.html">Brian Arsenault</a></h1>
-      <button className="navbar-toggler btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span className="navbar-toggler-icon"></span>
+      <button className="btn-light" type="button">
+        <span className="navbar-icon"></span>
       </button>
-      <div className='collapse navbar-collapse justify-content-end' id="navbarNav">
-        <ul className='navbar-nav ms-auto mb-2 mb-lg-0'>
+      <div className="justify-content-end" id="navbarNav">
+        <ul className='flex-row ms-auto mb-2 mb-lg-0'>
           <li className='nav-item d-flex flex-column text-center'><a 
                 href="#" 
                 onClick={() => {handlePageChange('About')}} 

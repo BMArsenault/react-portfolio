@@ -1,4 +1,5 @@
 import React from 'react';
+import aboutImage from "../../assets/img/brian.jpg";
 
 function About() {
     return (
@@ -9,7 +10,7 @@ function About() {
                 </div>
                 <div className="box-style">
                     <div className="col-12 col-lg-4 about-img">
-                        <img src={require('../../assets/img/brian.jpg')} alt="Brian smiling" width="200px" height="200px"/>
+                        <img src={aboutImage} alt="Brian smiling" width="200px" height="200px"/>
                     </div>
                     <div className="about-text">
                         <p>
