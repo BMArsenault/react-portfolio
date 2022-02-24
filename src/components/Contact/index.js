@@ -7,7 +7,7 @@ function ContactForm() {
     const [errorMessage, setErrorMessage] = useState('');
     const { name, email, message } = formState;
 
-    const submit = (e) => {
+    const handleSubmit = (e) => {
         e.preventDefault();
         if(validateEmail(e.target.email.value) && e.target.name.value && e.target.message.value) {
 			console.log(e.target.name.value, e.target.email.value, e.target.message.value);
@@ -40,8 +40,8 @@ function ContactForm() {
     }
 
     return (
-        <section>
-            <h1 data-testid="h1tag">Contact Me</h1>
+        <section className="contact mt-5 mb-5 w-50 m-auto">
+            <h1 >Contact Me</h1>
             <form id="contact-form" onSubmit={handleSubmit}>
             <div>
                 <label htmlFor="name">Name:</label>

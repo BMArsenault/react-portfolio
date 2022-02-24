@@ -6,8 +6,7 @@ import Footer from './components/Footer';
 import Nav from './components/Nav';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-import Button from 'react-bootstrap/Button';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
