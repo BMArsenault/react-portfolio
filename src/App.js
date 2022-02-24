@@ -29,13 +29,14 @@ function App() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <>
+    <div>
     <Nav currentPage={currentPage} handlePageChange={handlePageChange}></Nav>
       <main id="main">
         {renderPage()}
       </main>
+      <br/>
     <Footer></Footer>
-    </>
+    </div>
   );
 }
 

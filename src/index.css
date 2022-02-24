@@ -12,9 +12,21 @@ code {
     monospace;
 }
 
+header {
+  color: black;
+  background-color: #e0eaf7;
+  width: 100%;
+  text-decoration: none;
+}
+
+nav {
+  background-color: #e0eaf7;
+  width: 100%;
+}
+
 main {
   min-height: 88vh;
-  background-color: #72a5e7;
+  background-color: #e0eaf7;
 }
 
 .container {
@@ -35,4 +47,8 @@ main {
 
 .flex-end {
   justify-content: flex-end;
+}
+
+footer {
+  background-color: #e0eaf7;
 }
