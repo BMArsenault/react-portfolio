@@ -3,7 +3,7 @@ import Home from "../Home";
 
 function Portfolio() {
 
-    const [project] = useState([
+    const [home] = useState([
         {
             name: 'The Hype',
             description: 'j;lkasdf',
