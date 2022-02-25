@@ -43,7 +43,7 @@ const Portfolio = () => {
             name: 'The Tech Blog',
             description: 'Find todays tech news in one spot.  Comment, like and share with other in the community.',
             image: require('../../assets/img/techblog.png'),
-            link: "https://bmarsenault.github.io/Weather-App/",
+            link: "https://salty-island-41291.herokuapp.com/",
             repo: "https://github.com/BMArsenault/the-tech-blog"
         }
     ]
