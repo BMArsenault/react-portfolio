@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.01875d75.css",
+    "main.js": "/react-portfolio/static/js/main.40707f5c.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/hikespot.png": "/react-portfolio/static/media/hikespot.0871dcec62d629c96b81.png",
+    "static/media/hype.png": "/react-portfolio/static/media/hype.8c0e734ecf10dc5d99db.png",
+    "static/media/techblog.png": "/react-portfolio/static/media/techblog.89d97f9edd5957040820.png",
+    "static/media/brian.jpg": "/react-portfolio/static/media/brian.408f7c259c49f2a64fd0.jpg",
+    "static/media/weather.png": "/react-portfolio/static/media/weather.bb33e7772fe2c4ad87d4.png",
+    "static/media/workday.png": "/react-portfolio/static/media/workday.96868f51e8a087a1fa14.png",
+    "static/media/budget.png": "/react-portfolio/static/media/budget.c6bc6706922c57d6b167.png",
+    "static/media/Resume.pdf": "/react-portfolio/static/media/Resume.30f6b8c628e73b382cfa.pdf",
+    "index.html": "/react-portfolio/index.html",
+    "main.01875d75.css.map": "/react-portfolio/static/css/main.01875d75.css.map",
+    "main.40707f5c.js.map": "/react-portfolio/static/js/main.40707f5c.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01875d75.css",
+    "static/js/main.40707f5c.js"
+  ]
+}
