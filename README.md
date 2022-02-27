@@ -20,4 +20,3 @@ This is my portfolio that was created using React.  This is a one page website t
 * https://reactjs.org/docs/getting-started.html
 * https://react-bootstrap.github.io/getting-started/introduction
 * https://getbootstrap.com/docs/5.1/getting-started/introduction/
-* 
