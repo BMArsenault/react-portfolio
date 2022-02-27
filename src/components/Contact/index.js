@@ -62,6 +62,17 @@ function ContactForm() {
 )}
             <button type="submit">Submit</button>
             </form>
+            <br/>
+            <hr/>
+            <br/>
+            <div>
+                <h3>Other forms of communication:</h3>
+                <br/>
+                <p><b>Email:</b> BMArsenault@gmail.com</p>
+                <p><b>Phone:</b> 860-830-4195</p>
+                <br/>
+                <br/>
+            </div>
         </section>
     )
 }

@@ -13,14 +13,16 @@ const Resume = () => {
 
         <div className="row">
           <div className="col-lg-6">
-            <h3 className="resume-title">Qualifications</h3>
+            <h3 className="resume-title"><u>Qualifications</u></h3>
+            <br/>
             <div className="resume-item pb-0">
               <h4>Brian Arsenault</h4>
               <p>
                   <em>
                     Full Stack Developer with a background as a Project Manager. <br/>
-                    Recognized as resourceful, problem-solver, and team-player. <br/>
-                    Graduate of Full Stack Web Development through Columbia University.
+                    Graduated as a Full Stack Web Developer through Columbia University. <br/>
+                    Very creative and professional looking to further my career as a web <br/>
+                    developer.
                   </em>
               </p>
               <ul>
@@ -28,11 +30,13 @@ const Resume = () => {
                 <li>860-830-4195</li>
                 <li>BMArsenault@gmail.com</li>
               </ul>
+              <br/>
             </div>
             <hr/>
-            <h3 className="resume-title">Education</h3>
+            <h3 className="resume-title"><u>Education</u></h3>
+            <br/>
             <div className="resume-item">
-              <h4>Certificate in Full Stack Web Development</h4>
+              <h4>Certificate - Full Stack Web Development</h4>
               <h5>Sept. 2021 - Mar. 2022</h5>
               <p><em>Columbia University, New York, NY</em></p>
             </div>
@@ -41,10 +45,12 @@ const Resume = () => {
               <h5> Sept 2001 - May 2005</h5>
               <p><em>Central Connecticut State University - New Britain, CT</em></p>
             </div>
+            <br/>
             <hr/>
           </div>
           <div className="col-lg-6">
-            <h3 className="resume-title">Professional Experience</h3>
+            <h3 className="resume-title"><u>Professional Experience</u></h3>
+            <br/>
             <div className="resume-item">
               <h4>Test Driver</h4>
               <h5>June 2021 - Present</h5>
