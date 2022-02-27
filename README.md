@@ -12,6 +12,22 @@ This is my portfolio that was created using React.  This is a one page website t
 
 ## Usage
 
+Home/About Me
+
+![aboutme](https://user-images.githubusercontent.com/89749979/155894842-ebd684e0-00a4-4278-a1ba-17e3cd39aec2.png)
+
+Resume
+
+![resume](https://user-images.githubusercontent.com/89749979/155894850-b21dbb45-3c86-42f2-8bf8-8ebe94319044.png)
+
+Portfolio
+
+![portfolio](https://user-images.githubusercontent.com/89749979/155894866-0df0ef16-c7e5-458d-90dd-489766a958a0.png)
+
+Contact
+
+![contact](https://user-images.githubusercontent.com/89749979/155894870-67f447ba-0557-421a-9f68-33c59b8f71a5.png)
+
 
 ### Links and Resources
 
