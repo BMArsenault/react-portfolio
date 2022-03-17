@@ -7,7 +7,7 @@ const Portfolio = () => {
         {
             name: 'Parlay Owl',
             description: 'Find hiking locations and weather at the destination of your choice.  Music is also there for you that changes depending on the weather.',
-            image: require('../../assets/img/parlay'),
+            image: require('../../assets/img/parlay.png'),
             link: "https://calm-brook-70069.herokuapp.com/",
             repo: "https://github.com/BMArsenault/ParlayOwl"
         },
