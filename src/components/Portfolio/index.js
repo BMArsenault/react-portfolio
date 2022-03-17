@@ -5,6 +5,13 @@ const Portfolio = () => {
 
     const projects = [
         {
+            name: 'Parlay Owl',
+            description: 'Find hiking locations and weather at the destination of your choice.  Music is also there for you that changes depending on the weather.',
+            image: require('../../assets/img/parlay'),
+            link: "https://calm-brook-70069.herokuapp.com/",
+            repo: "https://github.com/BMArsenault/ParlayOwl"
+        },
+        {
             name: 'The Hype',
             description: 'Website with the hottest trends going on in the world today.  Connect with others to talk about shared interests',
             image: require('../../assets/img/hype.png'),
