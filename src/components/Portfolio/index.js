@@ -39,13 +39,13 @@ const Portfolio = () => {
             link: "https://glacial-depths-25191.herokuapp.com/",
             repo: "https://github.com/BMArsenault/budgeter"
         },
-        {
-            name: 'Weather Dashboard',
-            description: 'Check weather in any area, just enter the city to get the 5 day forecast',
-            image: require('../../assets/img/weather.png'),
-            link: "https://bmarsenault.github.io/Weather-App/",
-            repo: "https://github.com/BMArsenault/Weather-App"
-        },
+        // {
+        //     name: 'Weather Dashboard',
+        //     description: 'Check weather in any area, just enter the city to get the 5 day forecast',
+        //     image: require('../../assets/img/weather.png'),
+        //     link: "https://bmarsenault.github.io/Weather-App/",
+        //     repo: "https://github.com/BMArsenault/Weather-App"
+        // },
         {
             name: 'The Tech Blog',
             description: 'Find todays tech news in one spot.  Comment, like and share with other in the community.',
